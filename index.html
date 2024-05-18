@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seguidor Nuevo</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background: transparent;
+        }
+        #container {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-family: Arial, sans-serif;
+            font-size: 24px;
+            color: white;
+            text-shadow: 2px 2px 4px #000;
+        }
+    </style>
+</head>
+<body>
+    <div id="container"></div>
+    <script src="https://cdn.jsdelivr.net/npm/@streamlabs/streamlabs-obs-widget-core@0.2.0/dist/slobs-widget-core.min.js"></script>
+    <script src="widget.js"></script>
+</body>
+</html>
